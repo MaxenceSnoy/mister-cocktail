@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
-
-
-gem 'figaro'
 ruby '2.3.0'
+
+gem 'cloudinary'
+gem 'figaro'
+
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 gem 'faker'
